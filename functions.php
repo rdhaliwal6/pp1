@@ -5,3 +5,7 @@ function printArr(array $x){
         echo "<P>$x[$i]</p></br>";
     }
 }
+
+function largest(array $x){
+    return max($x);
+}
