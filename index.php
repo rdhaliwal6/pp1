@@ -22,5 +22,20 @@ error_reporting(E_ALL);
 </head>
 <body>
 <h1>Pair Program 1</h1>
+<?php
+//creating the number array
+$number = array(7,9,8,9,8,8,6);
+
+//creating the function to look thru the array and print the elements.
+function printArr(array $x){
+    for($i = 0; $i < sizeof($x); $i++){
+        echo "<P>$x[$i]</p></br>";
+    }
+}
+
+//prints the results.
+echo printArr($number);
+
+?>
 </body>
 </html>
