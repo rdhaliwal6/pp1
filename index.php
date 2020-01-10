@@ -35,7 +35,18 @@ echo printArr($number);
 $number2 = array(0,1,2,3,4,5,6,7,8,9);
 
 //print largest
-echo "largest is ". largest($number2);
+echo "largest is";
+echo largest($number2);
+echo "<br>";
+
+//remove dups
+echo "Dups removed from number";
+echo printArr(removeDups($number));
+
+
+//distribution
+echo "Distribution";
+print_r(distribution($number));
 ?>
 
 </body>
